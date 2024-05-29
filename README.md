@@ -4,6 +4,9 @@
 - Api tests located under cypress/e2e/ApiTests
 - Ui tests located under cypress/e2e/UITests
 
+## Page Objects for Tests
+- Api tests located under cypress/e2e/pages
+  
 ## CI Pipeline
 1) Navigate to Repository Actions
 2) Click on Roomex Technical Challenge workflow on the left column
