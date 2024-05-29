@@ -1,5 +1,5 @@
 describe('API Test for JSONPlaceholder', () => {
-  const baseUrl = 'https://jsonplaceholder.typicode.com/';
+  const baseUrl = 'https://jsonplaceholder.typicode.com';
 
   it('Should fetch comments for post 1 and verify all have emails', () => {
     cy.request(`${baseUrl}/posts/1/comments`).should((response) => {
